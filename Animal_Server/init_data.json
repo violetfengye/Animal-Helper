@@ -1,0 +1,69 @@
+[
+    {
+        "model": "MenuManagement.Menu",
+        "fields": {
+            "code": "10001",
+            "name": "动物信息",
+            "is_show": "ALL",
+            "path": "/animals",
+            "order": 1,
+            "parent_code": "0"
+        }
+    },
+    {
+        "model": "MenuManagement.Menu",
+        "fields": {
+            "code": "10007",
+            "name": "任务信息",
+            "is_show": "ALL",
+            "path": "/tasksInformation",
+            "order": 2,
+            "parent_code": "0"
+        }
+    },
+    {
+        "model": "MenuManagement.Menu",
+        "fields": {
+            "code": "10006",
+            "name": "人员管理",
+            "is_show": "Super_admin",
+            "path": "/peopleManagement",
+            "order": 3,
+            "parent_code": "0"
+        }
+    },
+    {
+        "model": "UserManagement.Admin",
+        "fields": {
+            "username": "lihong",
+            "password": "123456",
+            "name": "李红",
+            "role": "admin",
+            "gender": "male",
+            "is_active": 1,
+            "is_deleted": 0,
+            "phone": "13555558888",
+            "email": null,
+            "created_at": "2024-01-09 18:46:29.445603",
+            "updated_at": "2024-03-22 13:18:26.122150",
+            "admin_id": "202401010001a"
+        }
+    },
+    {
+        "model": "UserManagement.Admin",
+        "fields": {
+            "username": "superadmin",
+            "password": "superadmin",
+            "name": "超级管理员",
+            "role": "super_admin",
+            "gender": "male",
+            "is_active": 1,
+            "is_deleted": 0,
+            "phone": "12345678901",
+            "email": null,
+            "created_at": "2025-01-09 18:46:29.445603",
+            "updated_at": "2025-03-22 13:18:26.122150",
+            "admin_id": "202501010001a"
+        }
+    }
+]
