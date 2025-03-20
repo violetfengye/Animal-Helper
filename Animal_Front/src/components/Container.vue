@@ -5,12 +5,12 @@
       <div class="logo-box">
         <el-image
           style="width: 35px; margin-right: 5px"
-          src="/src/images/Logo.png"
+          src="/src/images/ExamOnlineLogo.png"
           fit="cover"
         />
         <el-image
-          style="width: 125px"
-          src="/src/images/ExamOnline.png"
+          style="width: 170px"
+          src="/src/images/new.png"
           fit="cover"
         />
       </div>

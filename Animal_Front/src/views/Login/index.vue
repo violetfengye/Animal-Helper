@@ -31,8 +31,8 @@
             <div
               style="display: flex; flex-direction: column; margin-left: 5px"
             >
-              <span class="logo-wording-item">动物帮助</span>
-              <span class="logo-wording-item-en">Animal Help</span>
+              <span class="logo-wording-item">动物管理系统</span>
+              <span class="logo-wording-item-en">Position Alert Welfare</span>
             </div>
           </div>
         </div>
@@ -154,27 +154,24 @@ const isSuperAdministrator = computed(
 const carouseGroup = [
   {
     id: 0,
-    imagePath: "src/images/CarouselImg1.png",
-    title: "灵活性与便利性",
+    imagePath: "src/images/c1.png",
+    title: "科技温度，为无声者发声",
     content:
-      "在线考试系统允许用户根据自己的时间表和地点参加考试，" +
-      "不再受限于特定的考试时间和地点。这种灵活性使得用户可以根据自己的学习进度和个人时间安排进行考试，增加了便利性和可及性。",
+      "在校园的隐秘角落，无数流浪猫狗正与饥饿、伤病和未知风险无声抗争。我们以物联网为笔，为生命书写希望。每一次数据波动都是生命的呼救，每一道预警信号都在改写流浪的命运。在这里，硬核科技化作最温柔的守望者。",
   },
   {
     id: 1,
-    imagePath: "src/images/CarouselImg2.png",
-    title: "自动化和即时反馈",
+    imagePath: "src/images/c2.png",
+    title: "从被动到主动，重构救助逻辑",
     content:
-      "在线考试系统可以自动评分并提供即时反馈，减少了管理员在评分和反馈方面的工作量，同时使用户能够立即了解他们的成绩和表现。" +
-      "这种即时反馈对于用户改进学习策略和弥补知识漏洞非常重要。",
+      "传统救助往往困于人力与信息的滞后，而我们的系统让善意跑在危机之前。当AI通过步态分析秒级响应骨折风险，当消瘦数据自动触发周边志愿者接单补粮——技术正将「事后补救」转化为「事前防御」。"
   },
   {
     id: 2,
-    imagePath: "src/images/CarouselImg3.png",
-    title: "数据统计和分析功能",
+    imagePath: "src/images/c3.png",
+    title: "智慧生态，让善意精准抵达",
     content:
-      "在线考试系统具有强大的数据统计和分析功能，能够收集和分析大量的考试数据，包括用户的答题情况、得分分布、常见错误模式等。" +
-      "通过这些数据，管理员和教育管理者可以深入了解用户的学习情况和考试表现，发现用户的学习需求和问题，从而采取针对性的教学和干预措施。",
+      "这不仅是覆盖校园的动物健康监测网，更是一场公益管理的范式革新。云端大屏实时定位高危个体，动态调配粮药资源；AI溯源传染病风险，为群体构筑免疫屏障。我们让冰冷的数据流淌暖意，用精准算法串联起设备、机构与千万爱心。"
   },
 ];
 
@@ -358,7 +355,7 @@ const handleLogin = () => {
       letter-spacing: 3px;
       .carousel-item-desc-title {
         font-size: 36px;
-        margin-bottom: 8px;
+        margin-bottom: 20px;
       }
       .carousel-item-desc-content {
         font-size: 18px;
@@ -402,7 +399,7 @@ const handleLogin = () => {
       letter-spacing: 2px;
     }
     .logo-wording-item-en {
-      font-size: 13px;
+      font-size: 10px;
       color: #3e3e3e;
       letter-spacing: 2px;
     }
